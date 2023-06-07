@@ -1,0 +1,74 @@
+<table> : 표를 만들 때 사용하는 태그
+<tr> : 한 행을 표현하는 태그 
+<th> : 한 셀을 표현하는 태그 (그중에서도 제목 셀)
+<td> : 한 셀을 표현하는 태그 (데이터가 들어가는 셀)
+
+<thead> (행에대한 정보를 알려주는 구조 태그)
+    <table> 태그 내에서 사용되며 데이터의 제목 부분을 
+    알려주는 역할을 한다
+
+<tbody> (행에대한 정보를 알려주는 구조 태그)
+    <table>태그 내에서 사용되며 데이터의 내용 부분을
+    알려주는 역할을 한다
+
+<tfoot> (행에대한 정보를 알려주는 구조 태그)
+    <table>태그 내에서 사용되며 데이터의 footer 부분(비고,설명)을
+    알려주는 역할을 한다
+
+
+<a> 태그 anchor 
+    이동을 시켜주는 태그
+    href 속성
+        도메인 주소로 이동 
+        내가만든 html 문서로 이동 
+        같은 html 문서 내에서 id 위치로 이동 
+    
+    target 
+        _self : 기본값이며 본인 페이지를 대체하여 이동
+        _blank : 새탭에서 이동
+    
+<form> 태그
+    button
+    fieldset 
+    input 
+    label 
+    option 
+    optgroup 
+    select 
+    textarea 
+    ....
+
+<fieldset>
+    입력되는 덩어리를 알려주는 태그 (개인정보입력창, 배달요청사항입력창)
+    <legend> 태그 해당 fieldset의 캡션(설명)을 달아주는 태그
+
+<input/>
+    내용이 없고, in-line 태그, 
+    type 
+        text : 기본값, 문자입력 
+        password : 비밀번호 입력 
+        date : 날짜 입력 
+
+        radio : 라디오 버튼 입력값
+        checkbox : 체크박스 입력값
+    
+    name 
+        radio, 혹은 checkbox 인 input 태그들을 그룹화 하는 속성
+    
+    checked 
+        radio, checkbox인 경우 기본으로 체크되어있도록 
+    
+    autofocus
+        기본으로 커서가 깜빡이고 있도록
+    
+    readonly
+        수정 못하도록 막아주는 속성 
+    
+    value
+        입력된 값을 나타내는 속성
+        사용자가 input 태그에 값을 입력하면 그 값이 value 속성값이 된다 
+        태그 자체에다가 명시적으로 value="값" 으로 쓰면 그 값이 기본값으로
+        작성된 채로 보이게 된다
+
+
+마지막 이줄이 삭제되었다 다시 나타나면 성공!
